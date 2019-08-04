@@ -1,4 +1,4 @@
-EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin web sitesidir. Bu sitede, derse ait dökümanlar ve dosyalar yer almatadır. 
+EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin web sitesidir. Bu sitede, derse ait dökümanlar ve dosyalar yer almaktadır. 
 
 + [Ders Planı, LatexDP](dokumanlar/LatexDP.pdf)
 
@@ -7,13 +7,14 @@ EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin w
 
 ## 1. Gün
 
-+ [Latex Giriş, LatexS1](dokumanlar/LatexS1.pdf)
+1. [Latex Giriş, LatexS1](dokumanlar/LatexS1.pdf)
 - Latex Nedir?
 - Latex Editörleri
 - Kaynaklar
 
 
-+ [Latex Giriş-2, LatexS2](dokumanlar/LatexS2.pdf)
+
+2. [Latex Giriş-2, LatexS2](dokumanlar/LatexS2.pdf)
 - Sahanlık ile Latex'e Giriş
 - Paket Kullanımı ve Başlangıç
 
@@ -21,7 +22,10 @@ EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin w
 + [Örnek2](dokumanlar\Örnek2.pdf)
 
 
-+ [Latex Giriş-3, LatexS3](dokumanlar/LatexS3.pdf)
+
+
+
+3. [Latex Giriş-3, LatexS3](dokumanlar/LatexS3.pdf)
 - Düz Metin için Temel Komutlar
 
 + [Örnek3](dokumanlar\Örnek3.pdf)
