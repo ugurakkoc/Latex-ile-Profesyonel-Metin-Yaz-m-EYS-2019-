@@ -2,7 +2,7 @@ EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin w
 
 ## 1. Gün
 
-+[Latex Giriş, LatexS1](dökümanlar/LatexS1.pdf)
++[Latex Giriş, LatexS1](dokumanlar/LatexS1.pdf)
 - Latex Nedir?
 - Latex Editörleri
 - Kaynaklar
