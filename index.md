@@ -23,8 +23,6 @@ EYS 2019 kapsamında düzenlenen Latex ile Profesyonel Metin Yazımı dersinin w
 
 
 
-
-
 3. [Latex Giriş-3, LatexS3](dokumanlar/LatexS3.pdf)
 - Düz Metin için Temel Komutlar
 
