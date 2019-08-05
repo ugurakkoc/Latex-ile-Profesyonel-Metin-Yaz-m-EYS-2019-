@@ -44,7 +44,7 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 - Metin Hizalama Ortamı
 - Tablo Ortamları
 
-+ [Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma]
++ [Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma](dokumanlar/Ödev2.pdf)
 + [Otomatik Listeleme için Alıştırma](dokumanlar/Ödev3.pdf)
 
 
