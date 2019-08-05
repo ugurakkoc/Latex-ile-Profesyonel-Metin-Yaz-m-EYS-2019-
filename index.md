@@ -17,14 +17,17 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 2. [Latex Giriş-2, LatexS2](dokumanlar/LatexS2.pdf)
 - Sahanlık ile Latex'e Giriş
 - Paket Kullanımı ve Başlangıç
-+ [Örnek1](dokumanlar\Örnek1.pdf)(dokumanlar\Örnek1.tex)
-+ [Örnek2](dokumanlar\Örnek2.pdf)(dokumanlar\Örnek2.tex)
++ [Örnek1](dokumanlar\Örnek1.pdf)
++ [Örnek 1 kaynak kod dosyası](dokumanlar\Örnek1.tex)
++ [Örnek2](dokumanlar\Örnek2.pdf)
++ [Örnek 2 kaynak kod dosyası](dokumanlar\Örnek2.tex)
 
 
 
 3.  [Latex Giriş-3, LatexS3](dokumanlar/LatexS3.pdf)
 - Düz Metin için Temel Komutlar
-+ [Örnek3](dokumanlar\Örnek3.pdf)(dokumanlar\Örnek3.tex)
++ [Örnek3](dokumanlar\Örnek3.pdf)
++ [Örnek 3 kaynak kod dosyası](dokumanlar\Örnek3.tex)
 
 
 
@@ -32,7 +35,7 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 
 ## 2. Gün
 
-0. [1. Gün için Alıştırma, Ödev1](dokumanlar/Ödev1.pdf)(dokumanlar\Ödev1.tex)
+0. [1. Gün için Alıştırma, Ödev1](dokumanlar/Ödev1.pdf)
 
 1. [Ortamlar/Çevreler, LatexS4](dokumanlar/LatexS4.pdf)
 - Maddeleme Ortamı
@@ -41,8 +44,8 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 - Metin Hizalama Ortamı
 - Tablo Ortamları
 
-+ [Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma](dokumanlar/Ödev2.pdf)(dokumanlar\Ödev2.tex)
-+ [Otomatik Listeleme için Alıştırma](dokumanlar/Ödev3.pdf)(dokumanlar\Ödev3.tex)
++ [Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma]
++ [Otomatik Listeleme için Alıştırma](dokumanlar/Ödev3.pdf)
 
 
 
