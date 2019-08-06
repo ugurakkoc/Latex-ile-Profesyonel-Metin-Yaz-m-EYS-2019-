@@ -52,4 +52,5 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 - Grafik Ortamı
 - Matematik Ortamı
 
-
++ [Matematik Ortamı için Farklı Örnekler](dokumanlar/Örnek4.pdf)
++ [Örnek 4 kaynak kod dosyası](dokumanlar\Örnek4.tex)
