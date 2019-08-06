@@ -35,7 +35,7 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 
 ## 2. Gün
 
-0. [1. Gün için Alıştırma, Ödev1](dokumanlar/Ödev1.pdf)
+[1. Gün için Alıştırma, Ödev1](dokumanlar/Ödev1.pdf)
 
 1. [Ortamlar/Çevreler, LatexS4](dokumanlar/LatexS4.pdf)
 - Maddeleme Ortamı
