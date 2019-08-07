@@ -44,13 +44,20 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 - Metin Hizalama Ortamı
 - Tablo Ortamları
 
-+ [Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma](dokumanlar/Ödev2.pdf)
-+ [Otomatik Listeleme için Alıştırma](dokumanlar/Ödev3.pdf)
++ [Örnek 4: Tablo Ortamları ve Tabloların Listelenmesi için Alıştırma](dokumanlar/Örnek4.pdf)
++ [Örnek 4 kaynak kod dosyası](dokumanlar\Örnek4.tex)
++ [Örnek 5: Otomatik Listeleme için Alıştırma](dokumanlar/Örnek5.pdf)
++ [Örnek 5 kaynak kod dosyası](dokumanlar\Örnek5.tex)
 
-2. [Ortamlar/Çevreler, LatexS5](dokumanlar/LatexS5.pdf)
+## 3. Gün
+
+[2. Gün için Alıştırma, Ödev2](dokumanlar/Ödev2.docx)
+
+1. [Ortamlar/Çevreler, LatexS5](dokumanlar/LatexS5.pdf)
 - Özet Ortamı
 - Grafik Ortamı
 - Matematik Ortamı
 
-+ [Matematik Ortamı için Farklı Örnekler](dokumanlar/Örnek4.pdf)
-+ [Örnek 4 kaynak kod dosyası](dokumanlar\Örnek4.tex)
++ [Örnek 6: Matematik Ortamı için Farklı Örnekler](dokumanlar/Örnek6.pdf)
++ [Örnek 6 kaynak kod dosyası](dokumanlar\Örnek6.tex)
+

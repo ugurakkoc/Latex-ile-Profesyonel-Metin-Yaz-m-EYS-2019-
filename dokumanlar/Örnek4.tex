@@ -1,35 +1,99 @@
-\documentclass{article}
+\documentclass[11pt]{article}
+\usepackage[turkish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\title{Türkiye'de Boş Zaman Talebi}
+\author{Uğur Akkoç}
 
+\begin{document}
 
-\begin{document}  
-\begin{align*}
-f(x) &= x^2\\
-g(x) &= \frac{1}{x}\\
-F(x) &= \int^a_b \frac{1}{3}x^3 \\
-\frac{1}{\sqrt{x}} \\
-\end{align*} \newpage
+\tableofcontents \pagebreak
 
-$	
-\begin{matrix} 
-	1 & 0\\
-	0 & 1 \\
-\end{matrix} 
-$
-\newpage
+\listoftables
 
-$[
-\begin{matrix}
-	1 & 0\\
-	0 & 1
-\end{matrix}
-$] \newpage
+\listoffigures
 
-$ \left[
-\begin{matrix}
-	1 & 0\\
-	0 & 1
-\end{matrix}
- \right] $ \newpage 
+\maketitle
+	
+	\begin{abstract}
+		Boş zamanın miktarı ve kalitesi birey refahının önemli bir göstergesidir. Zaman, kısıtlı bir kaynak olduğu için çoğu zaman yoksulluk ile birlikte anılır. Bireyler sahip oldukları kısıtlı zamanı piyasada ücret karşılığı iktisadi faaliyetlerde bulunmak, hane içi üretim faaliyetleri, aile ve çocuk bakımı gibi birtakım faaliyetler arasında dağıtırlar. Bireyler için zaman dağılımı kararı, bireyin ve içinde yaşadığı hanenin iktisadi ve sosyal şartlarına bağlı ve kişisel tercihlerin etkili olduğu bir optimizasyondur.
+	\end{abstract}
+	
+	\section{Teorik Arka Plan}
+
+\doublespacing
+Buna göre bireylerin karşı karşıya olduğu zaman kısıtı şu şekildedir: \linebreak
+	
+\begin{equation}
+X_{m} = WN + V
+\end{equation}
+
+Burada $“X_m”$ piyasadan satın alınan mal ve hizmetlerin değerini, “W” saatlik reel ücreti, “V” emek dışı toplam geliri belirtmektedir. Bu fayda fonksiyonu, zaman kısıtı ve içsel olarak belirlenen bütçe kısıtı altında ençoklaştırıl\-mıştır. Ençoklama sonucunda elde edilen çözümde zamanın gölge fiyatı (alternatif maliyeti) “W*” olarak elde edilmektedir. “W*” hane içi üretimin marjinal ürünüdür. Bir başka deyişle zamanın maliyeti saatlik reel ücrettir ve hane içinde gerçekleştirilen üretimin maliyeti, harcanan zamanda elde edilebilecek ücret gelirine denktir. Öte yandan, içsel çözüm için gerekli optimizasyon koşuluna göre mallar ve boş zaman arasındaki marjinal ikame oranı, hane içi üretimin marjinal ürününe dolayısıyla zamanın gölge fiyatı olan, $W^*$’a eşit olmalıdır. \linebreak
+
+\begin{equation}
+\dfrac{\delta Z/\delta L}{\delta Z/\delta X} = f^{'} = W^{\ast} = W
+\end{equation}   
+		
+	\section{Türkiye'de Zaman Dağılımı Profili}
+	
+	\begin{figure}
+		\caption{OECD Ülkelerinde Ücretli İşlere Ayrılan Ortalama Zaman (15-64 Yaş Arası)}
+		\includegraphics{odev2sekil1.png}
+		\label{sekil1}
+	\end{figure}
+
+\section{Veri, Metodoloji, Bulgular}
+\subsection{Model}
+
+Bu çalışmada Yeni Hane Halkı Ekonomisinin temel varsayımları altında Türkiye’de boş zaman talebi incelenmiştir. Bu amaçla TÜİK tarafından yayınlanan Zaman Kullanımı Anketi’nin (ZKA) 2014-2015 verileri kullanılmıştır. Anket, TÜİK tarafından 2014 yılı Temmuz ayı ile 2015 yılı Temmuz ayı arasındaki dönemde hane halkı üyeleri ile yüz yüze görüşme yöntemiyle gerçekleştirilmiştir. Bu araştırma Türkiye genelinde 11.440 hanede yapılmıştır. Hanede yaşayan 10 ve daha yukarı yaştaki tüm fertler örnekleme dahil edilmiştir. Haneyle ilgili bilgiler ve fertlerle ilgili demografik ve karakteristik bilgiler derlenmiştir. Bununla birlikte her ferdin bir hafta içi ve bir hafta sonu gününde, 24 saatlik zaman boyunca hangi faaliyetlerle ilgilendikleri 10’ar dakikalık aralıklarla kaydetmeleri istenmiştir. Böylece her ferdin bir gün içerisinde her faaliyet için ayırdığı toplam süre hesaplanmıştır. Söz konusu faaliyetlerin ve alt faaliyetlerin belirlenmesinde, uluslar arası karşılaştırılabilirliğin sağlanması amacıyla EUROSTAT tarafından önerilen HETUS sınıflandırması kullanılmıştır. 
+
+\subsection{Yöntem}
+
+Zaman Kullanımı Anketi’ni cevaplayan bazı bireyler, boş zamanı oluşturan faaliyetlerin hiçbirine zaman ayıramadıklarını bildirmiştir. Dolayısıyla bağımlı değişkenin bir kısım gözlemi hem kadınlarda hem de erkeklerde sıfır değerini almaktadır. Bu nedenle, 5 nolu eşitliği tahmin etmek için sansürlenmiş Tobit Yöntemi kullanılmıştır. Sıfır değerini alan bağımlı değişkenin varlığında, hata teriminin ortalaması sıfırdan farklı olduğu için En Küçük Kareler (EKK) tahmininin yanlı ve tutarsız sonuçlar verdiği bilinmektedir (Cameron ve Trivedi, 2009).
+
+\subsection{Bulgular}
+
+\begin{table}[h!]
+	\begin{center}
+		\caption{İşgücü Statüsüne Göre Ortalama Süreler}
+		\label{tablo1}
+		\begin{tabular}{c c c c c c c c c }
+			Panel A: & \multicolumn{8}{l}{İşgücü Statüsü} \\
+			 \hline & \multicolumn{2}{c}{Çalışan} & \multicolumn{2}{c}{İşsiz} & \multicolumn{2}{c}{Öğrenci} & \multicolumn{2}{c}{Emekli} \\
+			  & Kadın & Erkek & Kadın & Erkek & Kadın & Erkek & Kadın & Erkek \\
+			  \hline Sosyal ve Eğlence & 00:43 & 00:42 & 01:01 & 01:21 & 00:53 & \cellcolor{yellow}00:08 & 01:05 &01:25 \\
+			  \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+Tablo 2.’de yer alan sonuçlara göre Türkiye’de boş zaman talebinde önemli bir cinsiyet farkı bulunmaktadır.  Günlük ortalama boş zaman talebi kadınlarda iki saat altı dakika iken erkeklerde iki saat yirmi sekiz dakikadır. Bununla beraber, boş zaman talebindeki cinsiyet farkı, eğitim düzeyine bağlı olarak değişmemektedir.
+
+\begin{table}[h!]
+	\begin{center}
+		\caption{Eğitim Düzeyine Göre Ortalama Süreler}
+		\label{tablo2}
+		\begin{tabular}{c c c c c c c c c }
+			Panel B: & \multicolumn{8}{l}{Eğitim Düzeyi} \\
+			\hline & \multicolumn{2}{c}{Düşük Eğitim} & \multicolumn{2}{c}{Orta Eğitim} & \multicolumn{2}{c}{Yüksek Eğitim} & \multicolumn{2}{c}{Genel} \\
+			& Kadın & Erkek & Kadın & Erkek & Kadın & Erkek & Kadın & Erkek \\
+			\hline Sosyal ve Eğlence & 00:43 & 00:42 & 01:01 & 01:21 & 00:53 & \cellcolor{yellow}00:08 & 01:05 &01:25 \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+	\begin{figure}[h!]
+	\caption{Hane Gelir Dilimlerine Göre Ortalama Boş Zaman}
+	\includegraphics{odev2sekil2.jpg}
+	\label{sekil2}
+\end{figure}
+
+\footnotesize\textit{ Kaynak: Yazarın kendi hesaplamaları}
+
+\section{Sonuç}
 
 \end{document}
