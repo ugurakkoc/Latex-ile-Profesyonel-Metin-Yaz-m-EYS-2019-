@@ -63,5 +63,22 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 + [Örnek 4: Makale Çalışması Örneği](dokumanlar/Örnek4.pdf)
 + [Örnek 4 kaynak kod dosyası](dokumanlar\Örnek4.tex)
 
+
++ [Excel (csv) dosyasından otomatik tablolaştırma](dokumanlar/csvtotable.pdf)
++ [Excel (csv) dosyasından otomatik tablolaştırma kaynak kod dosyası](dokumanlar\csvtotable.tex)
+
++ [tikz Paketi ile Çizim Örneği](dokumanlar/tikz_ornegi.pdf)
++ [tikz Paketi ile Çizim Örneği kaynak kod dosyası](dokumanlar\tikz_ornegi.tex)
+
 ## 4. Gün
 
+1. [Referans Yönetimi, LatexS6](dokumanlar/LatexS6.pdf)
+
+
++ [Örnek 7: Atıf ve Referans](dokumanlar/ref.pdf)
++ [Örnek 7 kaynak kod dosyası](dokumanlar\ref.tex)
++ [Örnek 7 kaynak bib dosyası](dokumanlar\mybib.bib)
+
+2. [Sunum Hazırlama, Overleaf, LatexS7](dokumanlar/LatexS7.pdf)
+
++ [Örnek Sunum](dokumanlar/OrnekSunumDosyaları.zip)

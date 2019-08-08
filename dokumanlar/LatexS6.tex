@@ -1,0 +1,74 @@
+\documentclass[pdf]{beamer}     
+\usepackage[turkish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetheme{default} 
+\usepackage{graphicx}                            
+\useinnertheme{default}
+\usefonttheme{professionalfonts}
+\usecolortheme{default}
+\title{Latex ile Profesyonel Metin Yazımı-6}  
+\author{Uğur AKKOÇ}      
+\begin{document}  
+	\shorthandoff{=}
+	\maketitle
+	
+	
+\begin{frame}{Referans Yönetimi}
+\begin{itemize}
+	\item Latex referans yönetimi için kullanışlı bir sistem sunuyor.
+	\item Latex ile hazırlanan dosyalarda atıf girmek ve rferans listesi dökmek için .bib uzantılı bir dosya kullanılır.
+	\item Referans yönetimi için, tıpkı kaynak kod dosyası gibi referans listesinde yer alan kaynakların bilgilerinin girildiği bir bib dosyası hazırlanır.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Referans Yönetimi}
+\begin{itemize}
+	\item bib dosyasını TeXstudio (ya da diğer metin edtörlerinde) hazırlayıp, .bib uzantısı ile kaydedebilirsiniz.
+	\item Kaynak dosyasında kaydettiğiniz isim ile çağırdığınızda referans dosyanız okunacaktır.
+	\item Referans dosyanız olan bib dosyası da mutlaka diğer dosyalarınız ile aynı klasörde olmalıdır.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Referans Yönetimi}
+\begin{itemize}
+	\item bib dosyası üretmek için bir kaç yöntem kullanılabilir:
+	\begin{enumerate}
+		\item Metin editöründe oluşturulan bib dosyasındaki bilgileri elle girmek
+		\item Metin editöründe oluşturulan bib dosyasındaki bligileri Google Scholar' dan almak
+		\item Herhangi bir makalenin dergi sayfasından bib uzantısını almak
+		\item Bir kaynaktan bib dosyası üreten generator kullanmak
+		\item Mendeley gibi bir referans yönetimi programı ile grupladığınız makalelerin bib dosyasını toplu olarak almak
+	\end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Referans Yönetimi}
+\begin{itemize}
+	\item bib dosyası oluşturulduktan sonra, kaynak dosyanızda:
+	\begin{itemize}
+		\item Metin içinde atıf vermek için cite komutu kullanılır.
+		\item Referans listesi ise bibliography komutu ile hazırlanır.
+		\item bibliographystyle komutu ise kaynak gösterme biçimini belirler.
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+apacite paketi kullanılır. \\
+\begin{figure}
+	\includegraphics{refe1.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+ya da natbibapa sçeeneği ile apacite paketi kullanılır. \\
+\begin{figure}
+	\includegraphics{refe2.jpg}
+\end{figure}
+\end{frame}
+
+\end{document}
+	

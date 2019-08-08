@@ -1,0 +1,70 @@
+\documentclass{article}
+
+\usepackage{lipsum}
+\usepackage{filecontents}
+\usepackage{booktabs}
+\usepackage{array}
+ \usepackage{pgfplots}
+ \pgfplotsset{compat=1.7}
+\usepackage{pgfplotstable}
+\pgfplotstableset{
+  col sep=comma,
+  every head row/.style={%
+    before row=\toprule,%
+    after row=\midrule},%
+  every last row/.style={%
+    after row=\bottomrule}%
+}
+
+\begin{filecontents}{firstTable.csv}
+A,B,C,D,E
+1,2,3,4,5
+{$\Sigma$i},ii,iii,iv,v
+\end{filecontents}
+
+\begin{filecontents}{secondTable.csv}
+a,b,c,d,e
+1,2,3,4,5
+I,II,III,IV,V
+\end{filecontents}
+
+\begin{filecontents}{section1.tex}
+  Here's a nice table:
+
+  \pgfplotstableread{firstTable.csv}{\loadeddataone}
+
+  \begin{table}
+    \centering
+    \pgfplotstabletypeset[%
+       columns={A,B,C,D,E},
+       string type
+       ]{\loadeddataone}
+    \caption{Simple caption for a simpler table.}
+    \label{tab:table1}
+  \end{table}
+\end{filecontents}
+
+
+\begin{document}
+\section{Here goes section 1}
+\lipsum[1]
+\include{section1}
+
+
+\section{Section 2}
+And here we put another table.
+ \pgfplotstableread{secondTable.csv}{\loadeddatatwo}
+
+ \begin{table}
+   \centering
+   \pgfplotstabletypeset[%
+     columns={a,b,c,d,e},
+     string type
+     ]{\loadeddatatwo}
+     \caption{Fancy caption for a simple table.}
+     \label{tab:table2}
+ \end{table}
+
+
+
+\end{document}
