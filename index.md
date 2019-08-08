@@ -81,4 +81,4 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 
 2. [Sunum Hazırlama, Overleaf, LatexS7](dokumanlar/LatexS7.pdf)
 
-+ [Örnek Sunum](dokumanlar/OrnekSunumDosyaları.rar)
++ [Örnek Sunum](dokumanlar/ÖrnekSunumDosyaları.rar)
