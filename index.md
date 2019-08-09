@@ -82,3 +82,10 @@ EYS 2019 kapsamında düzenlenen "Latex ile Profesyonel Metin Yazımı" dersinin
 2. [Sunum Hazırlama, Overleaf, LatexS7](dokumanlar/LatexS7.pdf)
 
 + [Örnek Sunum](dokumanlar/ÖrnekSunumDosyaları.rar)
+
+## 5. Gün
+
+1. [Ekonometrik Programlardan Latex Dosyası Oluşturma, LatexS8](dokumanlar/LatexS8.pdf)
+
++ [Örnek 8: Stata programından Latex'e Geçiş örnek do dosyası](dokumanlar/example1.do)
++ [Örnek 8: Stata programından Latex'e Geçiş örnek çıktı dosyası](dokumanlar/example1.pdf)
